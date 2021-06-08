@@ -1,0 +1,25 @@
+/* Conteneur */
+section {
+    border: 3px solid black;
+    height: 400px;
+    display: flex;
+    /*Définition de l'axe  principal*/
+    flex-direction: row;
+    
+    /*Alignement sur l'axe principal */
+    justify-content: space-around;
+    
+    /*Alignement sur secondaire */
+    align-items: stretch;
+
+    /* Passage à la ligne */
+                                                                
+
+}
+/* Les contenus */
+  section article {
+      border: 3px solid orange;
+      flex-basis: 33%;
+      margin: 20px 0;
+      padding: auto;
+  }

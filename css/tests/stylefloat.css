@@ -1,0 +1,32 @@
+/**{
+    border: 1px solid black;
+}*/
+body {
+    margin: 0;
+}
+.col-4{
+    width: 33%;
+    border: 1px solid black;
+}
+.col-4 div{
+    padding: 5%;
+    border: 10px dotted greenyellow;
+    margin: 10%;
+    border: radius 5px; ;
+}
+main{
+    border:3px solid red
+}
+main:after{
+    content: "";
+    clear: both;
+    display: block;
+    border: 5px solid blue;
+}
+span {
+   border:1px solid black;
+   display: block;
+}
+p {
+  display:none;
+}

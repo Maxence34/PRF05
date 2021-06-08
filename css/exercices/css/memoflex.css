@@ -1,0 +1,50 @@
+/* Selecteur par descendance */
+header {
+    background-color: #6c757d;
+    padding: 20px 0;
+}
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+ul li {
+    margin: 0 20px 0px 20px;
+}
+main {
+   display: flex;
+}
+h2 {
+    display: flex;
+    border: solid white 20px;
+    font-weight: 300;
+}
+h3 {
+    display: flex;
+    background-color:#6c757d ;
+    padding: 15px;
+    font-size: 25px ;
+    margin: 5px; 
+    color: white;
+}
+button {
+    background-color: orange;
+    margin: 5px;
+    border: 5px;
+    padding: 10px;
+    
+}
+
+footer a {
+    background-color: #6c757d;
+    color: white;
+    text-align: center;
+    justify-content: center
+    
+        
+}
+  
